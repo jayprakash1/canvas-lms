@@ -11,10 +11,11 @@
 # directly used by Canvas, but required by a gem that is used by Canvas. We lock into specific versions of
 # these gems to prevent regression, and the indentation serves to alert us to the relationship between the gem and canvas-lms
 source 'https://rubygems.org/'
-ruby "2.1.6"
 
 require File.expand_path("../config/canvas_rails4_2", __FILE__)
 
 Dir.glob(File.join(File.dirname(__FILE__), 'Gemfile.d', '*.rb')).sort.each do |file|
   eval(File.read(file), nil, file)
 end
+
+ruby "2.1.6"
