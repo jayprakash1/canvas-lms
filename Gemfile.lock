@@ -68,6 +68,45 @@ GIT
       activemodel (>= 3.2)
 
 PATH
+  remote: gems/plugins/academic_benchmark
+  specs:
+    academic_benchmark (1.1.0)
+      rails (>= 3.2, < 4.3)
+
+PATH
+  remote: gems/plugins/account_reports
+  specs:
+    account_reports (1.1.0)
+      rails (>= 3.2, < 4.3)
+
+PATH
+  remote: gems/plugins/moodle_importer
+  specs:
+    moodle_importer (1.0.0)
+      moodle2cc (= 0.2.34)
+      rails (>= 3.2, < 4.3)
+
+PATH
+  remote: gems/plugins/qti_exporter
+  specs:
+    qti_exporter (1.0.0)
+      rails (>= 3.2, < 4.3)
+
+PATH
+  remote: gems/plugins/respondus_soap_endpoint
+  specs:
+    respondus_soap_endpoint (1.1.0)
+      rails (>= 3.2, < 4.3)
+      soap4r-middleware (= 0.8.3)
+      soap4r-ruby1.9 (= 2.0.0)
+
+PATH
+  remote: gems/plugins/simply_versioned
+  specs:
+    simply_versioned (1.0.0)
+      rails (>= 3.2, < 4.3)
+
+PATH
   remote: gems/activesupport-suspend_callbacks
   specs:
     activesupport-suspend_callbacks (0.0.1)
@@ -341,45 +380,6 @@ PATH
       will_paginate (= 3.0.7)
 
 PATH
-  remote: gems/plugins/academic_benchmark
-  specs:
-    academic_benchmark (1.1.0)
-      rails (>= 3.2, < 4.3)
-
-PATH
-  remote: gems/plugins/account_reports
-  specs:
-    account_reports (1.1.0)
-      rails (>= 3.2, < 4.3)
-
-PATH
-  remote: gems/plugins/moodle_importer
-  specs:
-    moodle_importer (1.0.0)
-      moodle2cc (= 0.2.33)
-      rails (>= 3.2, < 4.3)
-
-PATH
-  remote: gems/plugins/qti_exporter
-  specs:
-    qti_exporter (1.0.0)
-      rails (>= 3.2, < 4.3)
-
-PATH
-  remote: gems/plugins/respondus_soap_endpoint
-  specs:
-    respondus_soap_endpoint (1.1.0)
-      rails (>= 3.2, < 4.3)
-      soap4r-middleware (= 0.8.3)
-      soap4r-ruby1.9 (= 2.0.0)
-
-PATH
-  remote: gems/plugins/simply_versioned
-  specs:
-    simply_versioned (1.0.0)
-      rails (>= 3.2, < 4.3)
-
-PATH
   remote: gems/rubocop-canvas
   specs:
     rubocop-canvas (1.0.0)
@@ -607,7 +607,7 @@ GEM
       faraday (~> 0.8)
       faraday_middleware (~> 0.8)
       simple_oauth (= 0.2)
-    inst-jobs (0.11.2)
+    inst-jobs (0.11.3)
       after_transaction_commit (= 1.0.1)
       rails (>= 3.2)
       redis (> 3.0)
@@ -646,7 +646,7 @@ GEM
     mini_magick (4.2.7)
     mini_portile (0.6.2)
     minitest (4.7.5)
-    moodle2cc (0.2.33)
+    moodle2cc (0.2.34)
       builder
       instructure-happymapper (~> 0.5.10)
       nokogiri
@@ -806,7 +806,7 @@ GEM
       ffi-compiler (>= 0.0.2)
       rake
     securecompare (1.0.0)
-    selenium-webdriver (2.53.0)
+    selenium-webdriver (2.53.4)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
@@ -924,7 +924,7 @@ DEPENDENCIES
   broadcast_policy!
   builder (= 3.1.4)
   bullet_instructure (= 4.14.8)
-  bundler (>= 1.8.0, <= 1.11.2)
+  bundler (>= 1.10.1, <= 1.12.5)
   byebug (~> 9.0)
   canvas_breach_mitigation!
   canvas_cassandra!
@@ -998,7 +998,7 @@ DEPENDENCIES
   iconv (= 1.0.4)
   ims-lti (= 2.1.0.beta.3)
   incoming_mail_processor!
-  inst-jobs (= 0.11.2)
+  inst-jobs (= 0.11.3)
   jira_ref_parser (= 1.0.0)
   json (= 1.8.2)
   json-jwt (= 1.5.1)
@@ -1074,7 +1074,7 @@ DEPENDENCIES
   saml2 (= 1.0.7)
   sanitize (= 2.1.0)
   scrypt (= 2.1.1)
-  selenium-webdriver (= 2.53.0)
+  selenium-webdriver (= 2.53.4)
   selinimum (= 0.0.1)!
   sentry-raven (= 0.15.6)
   sequel (= 4.5.0)
