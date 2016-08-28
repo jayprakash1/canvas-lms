@@ -25,14 +25,6 @@ GIT
       redcarpet
 
 GIT
-  remote: https://github.com/instructure/nokogiri-xmlsec-me-harder.git
-  revision: 3236a249986413c6c399ef3477132a0af0410bb7
-  ref: 3236a249986413c6c399ef3477132a0af0410bb7
-  specs:
-    nokogiri-xmlsec-me-harder (0.9.3pre)
-      nokogiri
-
-GIT
   remote: https://github.com/instructure/testrailtagging
   revision: d6acade5ba29ec65d6d88a69ff6f967ce1b1358f
   ref: master
@@ -790,10 +782,6 @@ GEM
     rubyzip (1.1.1)
     rufus-scheduler (3.1.2)
     safe_yaml (1.0.4)
-    saml2 (1.0.7)
-      activesupport (>= 3.2, < 5.1)
-      nokogiri (>= 1.5.8, < 1.7)
-      nokogiri-xmlsec-me-harder (~> 0.9, >= 0.9.3pre)
     sanitize (2.1.0)
       nokogiri (>= 1.4.4)
     scrypt (2.1.1)
@@ -1014,7 +1002,6 @@ DEPENDENCIES
   net-ldap (= 0.10.1)
   netaddr (= 1.5.0)
   nokogiri (= 1.6.6.2.20150813143452)!
-  nokogiri-xmlsec-me-harder (= 0.9.3pre)!
   oauth-instructure (= 0.4.10)
   oauth2 (= 1.0.0)
   oj (= 2.14.1)
@@ -1063,7 +1050,6 @@ DEPENDENCIES
   rubyzip (= 1.1.1)
   rufus-scheduler (= 3.1.2)
   safe_yaml (= 1.0.4)
-  saml2 (= 1.0.7)
   sanitize (= 2.1.0)
   scrypt (= 2.1.1)
   selenium-webdriver (= 2.53.4)
