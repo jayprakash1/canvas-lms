@@ -220,12 +220,6 @@ PATH
       rubyzip (= 1.1.1)
 
 PATH
-  remote: gems/csv_diff
-  specs:
-    csv_diff (1.0.0)
-      sqlite3
-
-PATH
   remote: gems/diigo
   specs:
     diigo (1.0.0)
@@ -847,7 +841,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-    sqlite3 (1.3.9)
     stackprof (0.2.7)
     statsd-ruby (1.0.0)
     subexec (0.0.4)
@@ -956,7 +949,6 @@ DEPENDENCIES
   colorize
   crack (= 0.4.3)
   crocodoc-ruby (= 0.0.1)
-  csv_diff!
   diigo!
   diplomat (= 0.15.0)
   docile (= 1.1.3)
