@@ -18,4 +18,4 @@ Dir.glob(File.join(File.dirname(__FILE__), 'Gemfile.d', '*.rb')).sort.each do |f
   eval(File.read(file), nil, file)
 end
 
-ruby "2.1.6"
+ruby "2.2.2"
